@@ -93,7 +93,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/cooper/prebuilt/cifs.ko:system/lib/modules/cifs.ko \
     device/samsung/cooper/prebuilt/tun.ko:system/lib/modules/tun.ko \
     device/samsung/cooper/COOPER.rle:root/COOPER.rle \
-    device/samsung/cooper/init.gt-s5660.rc:root/init.gt-s5660.rc \
+    device/samsung/cooper/init.gt-s5830.rc:root/init.gt-s5830.rc \
     device/samsung/cooper/prebuilt/zram.ko:system/lib/modules/zram.ko 
 
 ## wifi module
