@@ -38,7 +38,7 @@
 PRODUCT_COPY_FILES := \
 	frameworks/base/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
 
-$(call inherit-product, device/samsung/gio/device_base.mk)
+$(call inherit-product, device/samsung/cooper/device_base.mk)
 
 # See comment at the top of this file. This is where the other
 # half of the device-specific product definition file takes care

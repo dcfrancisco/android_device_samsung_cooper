@@ -128,19 +128,6 @@ PRODUCT_COPY_FILES += \
     device/samsung/cooper/prebuilt/sysctl.conf:system/etc/sysctl.conf \
     device/samsung/cooper/prebuilt/media_profiles.xml:system/etc/media_profiles.xml 
 
-## Camera
-PRODUCT_COPY_FILES += \
-    device/samsung/cooper/prebuilt/camera.cooper.so:system/lib/hw/camera.cooper.so \
-    device/samsung/cooper/prebuilt/libcamera.so:system/lib/libcamera.so \
-    device/samsung/cooper/prebuilt/libcamera_client.so:system/lib/libcamera_client.so \
-    device/samsung/cooper/prebuilt/libcameraservice.so:system/lib/libcameraservice.so \
-    device/samsung/cooper/prebuilt/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-    device/samsung/cooper/prebuilt/libmmgsdilib.so:system/lib/libmmgsdilib.so \
-    device/samsung/cooper/prebuilt/libmmipl.so:system/lib/libmmipl.so \
-    device/samsung/cooper/prebuilt/libmmjpeg.so:system/lib/libmmjpeg.so \
-    device/samsung/cooper/prebuilt/libmm-omxcore.so:system/lib/libmm-omxcore.so \
-    device/samsung/cooper/prebuilt/liboemcamera.so:system/lib/liboemcamera.so
-
 ## keymap
 PRODUCT_COPY_FILES += \
     device/samsung/cooper/prebuilt/qwerty.kl:system/usr/keylayout/qwerty.kl \
