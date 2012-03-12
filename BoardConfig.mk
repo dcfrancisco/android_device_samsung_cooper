@@ -21,7 +21,7 @@
 BOARD_USE_LEGACY_TOUCHSCREEN := true
 
 # Use the non-open-source parts, if they're present
--include vendor/samsung/gio/BoardConfigVendor.mk
+-include vendor/samsung/cooper/BoardConfigVendor.mk
 
 # Use the parts that are common between all tass
-include device/samsung/gio/BoardConfigCommon.mk
+include device/samsung/cooper/BoardConfigCommon.mk
